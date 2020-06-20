@@ -1,0 +1,37 @@
+{
+  "name": "books-api",
+  "version": "1.0.0",
+  "description": "A Simple Backend Application to Access Book Library",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "jest --detectOpenHandles",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "Books",
+    "API"
+  ],
+  "author": "Aditya Vyas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@shelf/jest-mongodb": "^1.1.5",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "jest": "^26.0.1",
+    "mongodb-memory-server": "^6.6.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}

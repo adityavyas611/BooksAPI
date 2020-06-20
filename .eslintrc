@@ -1,0 +1,11 @@
+modeule.exports = {
+   extends: ["airbnb"],
+    env: {
+      "jest": true
+    },
+    rules: {
+      "no-restricted-syntax": 0,
+      "arrow-parens": 0,
+      "import/prefer-default-export": 0
+    }
+}
